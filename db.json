@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "nome": "Hambúrguer Artesanal",
+    "descricao": "Pão brioche, carne 180g e cheddar",
+    "categoria": "Lanches",
+    "preco": 28,
+    "imagem": "https://via.placeholder.com/300",
+    "disponivel": true
+  }
+]

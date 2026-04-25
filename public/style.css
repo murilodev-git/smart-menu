@@ -1,0 +1,39 @@
+body {
+  font-family: Arial;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.indisponivel {
+  color: red;
+  font-weight: bold;
+}
+
+form, .filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  cursor: pointer;
+}

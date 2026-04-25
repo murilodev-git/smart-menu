@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Smart Menu</h1>
+
+<div class="filtros">
+  <input type="text" id="busca" placeholder="Buscar produto">
+  
+  <select id="categoriaFiltro">
+    <option value="">Todas categorias</option>
+    <option value="Lanches">Lanches</option>
+    <option value="Bebidas">Bebidas</option>
+  </select>
+
+  <input type="number" id="precoMax" placeholder="Preço máximo">
+</div>
+
+<div id="produtos" class="produtos"></div>
+
+<a href="admin.html">Painel Admin</a>
+
+<script src="script.js"></script>
+</body>
+</html>

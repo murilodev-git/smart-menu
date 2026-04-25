@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Painel Administrativo</h1>
+
+<form id="form">
+  <input id="nome" placeholder="Nome" required>
+  <input id="descricao" placeholder="Descrição" required>
+  <input id="categoria" placeholder="Categoria" required>
+  <input id="preco" type="number" placeholder="Preço" required>
+  <input id="imagem" placeholder="URL da imagem" required>
+
+  <select id="disponivel">
+    <option value="true">Disponível</option>
+    <option value="false">Indisponível</option>
+  </select>
+
+  <button type="submit">Salvar</button>
+</form>
+
+<div id="adminProdutos"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
