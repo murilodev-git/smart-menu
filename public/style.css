@@ -37,3 +37,8 @@ form, .filtros {
 button {
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  .menu-grid {
+    grid-template-columns: 1fr;
+  }
+}
